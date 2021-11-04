@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+  background-color: #F6F5F1;
+  font-family: 'EB Garamond', serif;
+  color: #4A3780;
+}
+section {
+  margin: 100px 200px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 85%;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+.btn-contact {
+  padding: 1em;
+}
+button {
+  border: solid 2px #4A3780;
+  color: #4A3780;
+  background-color: #F6F5F1;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24pt;
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.title {
+  padding: 0 0 300px 0;
+}
+.title h1 {
+  font-size: 120pt;
+  font-weight: 500;
+}
+.title h2 {
+  font-size: 60pt;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 86pt;
+}
+.title h3 {
+  font-size: 65pt;
+  font-weight: 400;
+  font-style: italic;
+}
+ .proyect-list h4 {
+  font-size: 75pt;
+  line-height: 82pt;
+  font-weight: 400;
+  transition: color 0,3s;
+}
+.proyect-list h4:hover {
+  color: #CC0202;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 78pt;
+}
+.proyect-list p {
+  font-size: 55pt;
+  font-weight: 400;
+}
